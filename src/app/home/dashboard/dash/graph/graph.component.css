@@ -60,6 +60,30 @@ mat-form-field {
     font-size: 12px;
 }
 
+@media only screen and (min-width: 1350px)and (max-width:1850px) {
+    #divChart {
+        width: 40svw;
+    }
+}
+
+@media only screen and (min-width: 1850px)and (max-width:2000px) {
+    #divChart {
+        width: 35svw;
+    }
+}
+
+@media only screen and (min-width: 2000px)and (max-width:2500px) {
+    #divChart {
+        width: 30svw;
+    }
+}
+
+@media only screen and (min-width: 2500px)and (max-width:4005px) {
+    #divChart {
+        width: 25svw;
+    }
+}
+
 @media only screen and (min-width: 800px)and (max-width:1024px) {
     .filters{
         width: 50vh!important;
