@@ -1,0 +1,471 @@
+.third-row{
+    display: flex;
+    margin-top: 20px;
+    width:100%;
+    justify-content: space-between;
+    padding-bottom: 2vh;
+}
+
+.mat-mdc-form-field-flex {
+    height: 4vh !important;
+}
+.mat-mdc-text-field-wrapper.mdc-text-field--outlined .mat-mdc-form-field-infix{
+    padding-top: 8px !important;
+}
+/* .mat-mdc-icon-button.mat-mdc-button-base{
+    margin-top: -1vh;
+} */
+
+.ihalf-row{
+    display:flex;  
+}
+.iihalf-row{
+    display:flex;
+    padding:0px;
+    margin:0px;  
+}
+th{
+    color:gray;
+}
+
+td,p{
+    padding:0p 5px;
+    margin:0px;
+}
+ng-container{
+    padding:0px;
+    margin:0px;
+}
+
+
+.res-table{
+    width:auto;
+  }
+.mat-elevation-z8{
+    box-shadow: none;
+}
+.button{
+    width: 10vh;
+    background-color: white;
+    font-size: medium;
+    border: none;
+    border-bottom: 1px solid rgb(0, 183, 255);
+    text-align: center;
+}
+.button-class{
+    position: absolute;
+    top: calc(100% + 50px);
+    left: 250%;
+    transform: translateX(-450%);
+    z-index: 999;
+    background-color: white;
+    box-shadow: 2px;
+    border: 1px solid rgb(230, 230, 230);
+}
+.button:hover{
+    background-color: rgb(0, 183, 255);
+    color: white;
+    
+}
+.table-class{
+    width:auto;
+    height: 49vh;
+}
+
+.button-tabs{
+    display:flex;
+    
+}
+.cale{
+    font-size: 10px;
+    margin:10px 0px 5px 2vh ;
+}
+
+.filter{
+    margin:10px 0px 5px 2vh
+}
+
+.matt-button{
+    margin:10px 0px 5px 2vh
+}
+@media only screen and (min-width: 238px)and (max-width:428px) {
+    .third-row{
+      width:auto;
+      display: flow-root;
+    }
+    .table-class{
+        width:auto;
+        overflow-x:scroll;
+        overflow-y:scroll;
+    }
+    .mat-elevation-z8{
+        width:auto;
+    }
+    .mat-button{
+        background-color: #0085FF;
+        border-radius: 5px;
+        color: white;
+        width: 150px;
+        display:flow-root;
+        margin:10px 0px;
+    }
+    .button-class{
+        position: absolute !important;
+        top: calc(auto + 30px) !important;
+        left: 60%  !important;
+        transform: translateX(-80%);
+        transform: translateY(150%);
+        z-index: 999;
+        background-color: white;
+        box-shadow: 2px;
+        border: 1px solid rgb(230, 230, 230);
+    }
+    .button:hover{
+        background-color: rgb(0, 183, 255);
+        color: white;
+        
+    }
+
+    .button-tabs{
+        display:flow-root; 
+        height:auto;
+    }
+    .cale{
+        font-size: 10px;
+        margin:10px 20px 5px 2vh ;
+       
+    }
+    
+    .filter{
+        margin:20px 20px 5px 2vh ;
+        padding: 15px 0px;
+    }
+    
+    .matt-button{
+        margin:20px 10px 5px 2vh ;
+    }
+   
+}
+@media only screen and (min-width: 428px)and (max-width:768px) {
+    .third-row{
+      width:auto;
+      display: flow-root;
+    }
+    .table-class{
+        width:auto;
+        overflow-x:scroll;
+        overflow-y: scroll;
+    }
+    .mat-elevation-z8{
+        width:auto;
+       
+    }
+    .mat-button{
+        background-color: #0085FF;
+        border-radius: 5px;
+        color: white;
+        width: 150px;
+        display:flow-root;
+    }
+
+    .button-class{
+        position: absolute !important;
+        top: calc(auto + 30px) !important;
+        left: 70%  !important;
+        transform: translateX(-80%);
+        transform: translateY(150%);
+        z-index: 999;
+        background-color: white;
+        box-shadow: 2px;
+        border: 1px solid rgb(230, 230, 230);
+    }
+    .button:hover{
+        background-color: rgb(0, 183, 255);
+        color: white;
+        
+    }
+    .button-tabs{
+        display:flow-root; 
+        height:auto;
+    }
+    .cale{
+        font-size: 10px;
+        margin:10px 10px 5px 2vh ;
+       
+    }
+    
+    .filter{
+        margin:10px 10px 5px 2vh ;
+        padding: 15px 0px;
+    }
+    
+    .matt-button{
+        margin:10px 10px 5px 2vh ;
+    }
+}
+
+
+
+@media only screen and (min-width: 768px)and (max-width:900px) {
+    .third-row{
+      width:auto;
+      display: flow-root;
+    }
+    .table-class{
+        width:auto;
+        overflow-x:scroll;
+        overflow-y: scroll;
+    }
+    .mat-elevation-z8{
+        width:auto;
+      
+    }
+    .button-class{
+        position: absolute;
+        top: calc(100% + 0px);
+        left: 200% !important;
+        transform: translateX(-150%);
+        z-index: 999;
+        background-color: white;
+        box-shadow: 2px;
+        border: 1px solid rgb(230, 230, 230);
+    }
+    .button:hover{
+        background-color: rgb(0, 183, 255);
+        color: white;
+        
+    }
+    .button-tabs{
+        display:flex; 
+        height:auto;
+    }
+    .cale{
+        font-size: 10px;
+        margin:10px 10px 5px 2vh ;
+       
+    }
+    
+    .filter{
+        margin:10px 10px 5px 2vh ;
+        
+    }
+    
+    .matt-button{
+        margin:10px 10px 5px 2vh ;
+    }
+}
+
+@media only screen and (min-width: 800px)and (max-width:900px) {
+    .third-row{
+      width:auto; 
+      display: flow-root;
+    }
+    .table-class{
+        width:auto;
+        overflow-x:scroll
+    }
+    .mat-elevation-z8{
+        width:auto;
+      
+    }
+    .mat-button{
+        background-color: #0085FF;
+        border-radius: 5px;
+        color: white;
+        width: 150px;
+        display:flow-root;
+        margin:10px 0px;
+    }
+    /* .button-class{
+        position: absolute;
+        top: calc(100% + 50px);
+        left: 50%;
+        transform: translateX(-100%);
+        z-index: 999;
+        background-color: white;
+        box-shadow: 2px;
+        border: 1px solid rgb(230, 230, 230);
+    } */
+    .button-class{
+        position: absolute !important; ;
+        top: calc(20%+ 10px) !important;
+        left: 80%;
+        transform: translateX(-450%);
+        z-index: 999;
+        background-color: white;
+        box-shadow: 2px;
+        border: 1px solid rgb(230, 230, 230);
+    }
+    .button:hover{
+        background-color: rgb(0, 183, 255);
+        color: white;
+        
+    }
+
+    .button-tabs{
+        display:flow-root !important; 
+        height:auto;
+    }
+    .cale{
+        font-size: 10px;
+        margin:10px 20px 5px 2vh ;
+       
+    }
+    
+    .filter{
+        margin:20px 20px 5px 2vh ;
+        padding: 15px 0px;
+    }
+    
+    .matt-button{
+        margin:20px 10px 5px 2vh ;
+    }
+   
+}
+@media only screen and (min-width: 900px)and (max-width:1024px) {
+    .third-row{
+      width:auto;
+      display: flow-root;
+    }
+    .table-class{
+        width:auto;
+        overflow-x:scroll;
+        overflow-y: scroll;
+    }
+    .mat-elevation-z8{
+        width:auto;
+      
+    }
+
+    .button-class{
+        position: absolute;
+        top: calc(auto + 20px)!important;
+        left: 180%;
+        transform: translateX(-500%);
+
+        z-index: 999;
+        background-color: white;
+        box-shadow: 2px;
+        border: 1px solid rgb(230, 230, 230);
+    }
+    .button:hover{
+        background-color: rgb(0, 183, 255);
+        color: white;
+        
+    }
+    .button-tabs{
+        display:flex; 
+        height:auto;
+    }
+    .cale{
+        font-size: 10px;
+        margin:10px 10px 5px 2vh ;
+       
+    }
+    
+    .filter{
+        margin:10px 10px 5px 2vh ;
+    }
+    
+    .matt-button{
+        margin:10px 10px 5px 2vh ;
+    }
+}
+
+@media only screen and (min-width: 1024px)and (max-width:1350px) {
+    .third-row{
+      width:auto; 
+      display: flow-root;
+    }
+    .table-class{
+        width:auto;
+       
+     
+    }
+    .mat-elevation-z8{
+        width:auto;
+      
+    }
+    .iihalf-row{
+        display: flow-root;
+    }
+    .button-class{
+        position: absolute;
+        top: calc(100% + 50px);
+        left: 250%;
+        transform: translateX(-450%);
+        z-index: 999;
+        background-color: white;
+        box-shadow: 2px;
+        border: 1px solid rgb(230, 230, 230);
+    }
+    .button:hover{
+        background-color: rgb(0, 183, 255);
+        color: white;
+        
+    }
+    .button-tabs{
+        display:flex; 
+        height:auto;
+    }
+    .cale{
+        font-size: 10px;
+        margin:10px 10px 5px 2vh ;
+       
+    }
+    
+    .filter{
+        margin:10px 10px 5px 2vh ;
+    }
+    
+    .matt-button{
+        margin:10px 10px 5px 2vh ;
+    }
+}
+
+@media only screen and (min-width: 1350px)and (max-width:2000px) {
+    .third-row{
+      width:auto;
+     
+    }
+    .table-class{
+        width:auto;
+    }
+    .mat-elevation-z8{
+        width:auto;
+    }
+ 
+
+    .button-class{
+        position: absolute;
+        top: calc(100% + 50px);
+        left: 200%;
+        transform: translateX(-450%);
+        z-index: 999;
+        background-color: white;
+        box-shadow: 2px;
+        border: 1px solid rgb(230, 230, 230);
+    }
+    .button:hover{
+        background-color: rgb(0, 183, 255);
+        color: white;
+        
+    }
+    .button-tabs{
+        display:flex; 
+        height:auto;
+    }
+    .cale{
+        font-size: 10px;
+        margin:10px 10px 5px 2vh ;
+       
+    }
+    
+    .filter{
+        margin:10px 10px 5px 2vh ;
+    }
+    
+    .matt-button{
+        margin:10px 10px 5px 2vh ;
+    }
+}

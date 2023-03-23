@@ -1,0 +1,278 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+mat-card-title {
+    font-weight: 500;
+}
+
+.second-card {
+    height: 400px;
+    margin-right: 0.6em;
+    margin-bottom: 0.2em;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.work-icon {
+    font-size: 15px;
+    color: #969696;
+    padding-left: 10px;
+}
+
+.fas {
+    font-size: 15px;
+    color: #969696;
+    padding-left: 10px;
+}
+
+h1 {
+    padding-top: 10px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.mat-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: auto;
+}
+
+.secondcard-div {
+    display: flex;
+}
+
+.secondcard1-div {
+    width: 100%;
+    justify-content: space-between;
+    height: auto;
+}
+
+.workflow-div {
+    display: flex;
+    width: auto;
+    margin-right: 5em;
+    margin-top: -1vh;
+}
+.butCount{
+    background-color: #969696; color: white; border:none; border-radius: 10px; height: 25px;width:auto;
+    font-size: 16px;
+}
+.butDiv{
+    color: white; border:none; border-radius: 10px; height: 25px;width:40px
+}
+h3{
+    margin-left: 3px;
+}
+
+@media only screen and (min-width: 350px)and (max-width:440px) {
+    .mat-header{
+        display: flow-root !important;
+    }
+    .button-stoked{
+        margin-top: 1vh !important;
+        float: left !important;
+    }
+}
+
+ @media only screen and (min-width: 1240px)and (max-width:1291px) {
+    .secondcard-div{
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .butCount{
+        font-size: 15px !important;
+    }
+    h3{
+        margin-left: 1px;
+    }
+    .button-stoked{
+        margin-left: 1vh !important;
+    }
+} 
+
+@media only screen and (min-width: 1290px)and (max-width:1376px) {
+    .secondcard-div{
+        margin-left: -15px !important;
+        margin-right: -15px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+} 
+
+@media only screen and (min-width: 1376px)and (max-width:1396px) {
+    .secondcard-div{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}
+
+@media only screen and (min-width: 800px)and (max-width:850px) {
+    .secondcard-div {
+        display: flow-root!important;
+        padding: 5px;
+    }
+}
+
+@media only screen and (min-width: 400px)and (max-width:600px){
+    .secondcard-div {
+        display: flow-root;
+        padding: 5px;
+    }
+}
+
+@media only screen and (min-width: 480px)and (max-width:768px) {
+
+    .second-card {
+        height: auto;
+    }
+
+    .mat-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .workflow-div {
+        display: inline-flex;
+        width: auto;
+        margin-right: 25px;
+    }
+
+    .button-stoked {
+        float: right;
+    }
+}
+
+@media only screen and (min-width: 280px)and (max-width:480px) {
+
+    .second-card {
+        height: auto;
+        width: auto;
+    }
+
+    .mat-header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .workflow-div {
+        display: flex;
+        width: auto;
+        margin-right: -2vh;
+        margin-top: -1vh;
+    }
+
+    .button-stoked {
+        float: right;
+        padding: 2px 5px;
+        margin: 0;
+    }
+
+    .secondcard-div {
+        display: flow-root;
+        padding: 5px;
+    }
+
+    .secondcard1-div {
+        width: 100%;
+        justify-content: space-between;
+        margin: 0px 10px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 768px)and (max-width:1024px) {
+
+    .second-card {
+        height: auto;
+    }
+
+    .mat-header {
+        display: flex;
+    }
+
+    .workflow-div {
+        display: inline-flex;
+        width: auto;
+        margin-right: 25px;
+    }
+
+    .button-stoked {
+        float: right;
+        margin-left: 5em;
+    }
+
+    .secondcard-div {
+        display: flex;
+        padding: 5px;
+    }
+
+}
+
+
+@media only screen and (min-width: 1024px)and (max-width:1350px) {
+    .second-card {
+        height: auto;
+    }
+
+    .workflow-div {
+        display: inline-flex;
+        margin-right: 20px;
+    }
+
+    .button-stoked {
+        float: right;
+        margin-left: 5em;
+    }
+
+    .secondcard-div {
+        display: flex;
+        padding: 5px;
+    }
+
+    .fas {
+        font-size: 1.4vh;
+        color: #969696;
+        padding-left: 5px;
+    }
+
+    .work-text {
+        font-size: 1.4vh;
+        margin-left: 5px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 1350px)and (max-width:1800px) {
+
+
+    .second-card {
+        height: auto;
+    }
+
+    .mat-header {
+        display: flex;
+    }
+
+    .workflow-div {
+        display: inline-flex;
+        width: auto;
+        margin-right: 25px;
+    }
+
+    .button-stoked {
+        float: right;
+        margin-left: 5em;
+    }
+
+    .secondcard-div {
+        display: inline-flexbox;
+        padding: 5px;
+    }
+
+}
