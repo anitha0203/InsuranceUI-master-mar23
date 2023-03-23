@@ -1,0 +1,16 @@
+.sett{
+    display: flex;justify-content: space-between;
+}
+
+.serr{
+    color: #969696; font-size: 18px; font-weight: 300;
+}
+
+@media only screen and (min-width: 350px)and (max-width:500px) {
+    .sett{
+        display: flow-root;
+    }
+    .serr{
+        margin-bottom: 1vh;
+    }
+}
