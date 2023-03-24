@@ -71,7 +71,7 @@ mat-sidenav-container {
 
 }
 
-@media only screen and (min-width: 3500px)and (max-width:4500px) {
+@media only screen and (min-width: 3500px)and (max-width:4500px){
     mat-sidenav-container {
         position: relative;
         flex-direction: row;

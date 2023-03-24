@@ -12,9 +12,6 @@
 .mat-mdc-text-field-wrapper.mdc-text-field--outlined .mat-mdc-form-field-infix{
     padding-top: 8px !important;
 }
-/* .mat-mdc-icon-button.mat-mdc-button-base{
-    margin-top: -1vh;
-} */
 
 .ihalf-row{
     display:flex;  
@@ -26,6 +23,9 @@
 }
 th{
     color:gray;
+}
+.but-tab{
+    display: flex;
 }
 
 td,p{
@@ -73,8 +73,7 @@ ng-container{
 }
 
 .button-tabs{
-    display:flex;
-    
+    display:flex; 
 }
 .cale{
     font-size: 10px;
@@ -88,6 +87,26 @@ ng-container{
 .matt-button{
     margin:10px 0px 5px 2vh
 }
+
+@media only screen and (min-width: 350px)and (max-width:515px) {
+    .but-tab{
+        display: flow-root;
+    }
+    .filter{
+        margin-top: 2vh;
+    }
+    .matt-button{
+        margin-top: 2vh;
+    }
+}
+
+@media only screen and (min-width: 350px)and (max-width:450px)  {
+    .mat-mdc-paginator-range-label{
+        margin: 0px 0px 0px 15px !important;
+    }
+    
+}
+
 @media only screen and (min-width: 238px)and (max-width:428px) {
     .third-row{
       width:auto;
@@ -130,22 +149,9 @@ ng-container{
         display:flow-root; 
         height:auto;
     }
-    .cale{
-        font-size: 10px;
-        margin:10px 20px 5px 2vh ;
-       
-    }
-    
-    .filter{
-        margin:20px 20px 5px 2vh ;
-        padding: 15px 0px;
-    }
-    
-    .matt-button{
-        margin:20px 10px 5px 2vh ;
-    }
    
 }
+
 @media only screen and (min-width: 428px)and (max-width:768px) {
     .third-row{
       width:auto;
@@ -184,27 +190,11 @@ ng-container{
         color: white;
         
     }
-    .button-tabs{
-        display:flow-root; 
-        height:auto;
-    }
-    .cale{
-        font-size: 10px;
-        margin:10px 10px 5px 2vh ;
-       
-    }
-    
-    .filter{
-        margin:10px 10px 5px 2vh ;
-        padding: 15px 0px;
-    }
     
     .matt-button{
         margin:10px 10px 5px 2vh ;
     }
 }
-
-
 
 @media only screen and (min-width: 768px)and (max-width:900px) {
     .third-row{
@@ -239,11 +229,6 @@ ng-container{
         display:flex; 
         height:auto;
     }
-    .cale{
-        font-size: 10px;
-        margin:10px 10px 5px 2vh ;
-       
-    }
     
     .filter{
         margin:10px 10px 5px 2vh ;
@@ -252,6 +237,11 @@ ng-container{
     
     .matt-button{
         margin:10px 10px 5px 2vh ;
+    }
+}
+@media only screen and (min-width: 350px)and (max-width:690px) {
+    .button-tabs{
+        display:flow-root; 
     }
 }
 
@@ -276,16 +266,7 @@ ng-container{
         display:flow-root;
         margin:10px 0px;
     }
-    /* .button-class{
-        position: absolute;
-        top: calc(100% + 50px);
-        left: 50%;
-        transform: translateX(-100%);
-        z-index: 999;
-        background-color: white;
-        box-shadow: 2px;
-        border: 1px solid rgb(230, 230, 230);
-    } */
+    
     .button-class{
         position: absolute !important; ;
         top: calc(20%+ 10px) !important;
@@ -306,22 +287,13 @@ ng-container{
         display:flow-root !important; 
         height:auto;
     }
-    .cale{
-        font-size: 10px;
-        margin:10px 20px 5px 2vh ;
-       
-    }
-    
-    .filter{
-        margin:20px 20px 5px 2vh ;
-        padding: 15px 0px;
-    }
     
     .matt-button{
         margin:20px 10px 5px 2vh ;
     }
    
 }
+
 @media only screen and (min-width: 900px)and (max-width:1024px) {
     .third-row{
       width:auto;
@@ -354,7 +326,7 @@ ng-container{
         
     }
     .button-tabs{
-        display:flex; 
+        display:flow-root; 
         height:auto;
     }
     .cale{

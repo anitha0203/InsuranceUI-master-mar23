@@ -4,12 +4,6 @@ mat-raised-button {
     vertical-align: -webkit-baseline-middle;
 }
 
-:host {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 .profile {
     background-color: black;
     color: #fff;

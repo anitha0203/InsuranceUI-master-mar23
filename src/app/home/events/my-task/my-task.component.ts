@@ -72,6 +72,13 @@ export class MyTaskComponent {
     // ],
     dayCellDidMount: (info) => {
       const cellEl = info.el;
+
+      const date = info.date.toISOString().substring(0, 10); // Get the date in the format "YYYY-MM-DD"
+  //  const events = this.calendarComponent.getApi().getEventsByDay(date); // Get the events for that day
+  //  console.log(events);
+
+
+    //  console.log(cellEl)
       // const plusE1 = document.createElement('span')
       // plusE1.innerHTML = '+';
       // plusE1.className = 'plus-symbol';
@@ -80,7 +87,7 @@ export class MyTaskComponent {
       cellEl.addEventListener('mouseenter', () => {
         // cellEl.classList.add('fc-highlight');
         const date = info.date;
-        console.log("date: ", date)
+       // console.log("date: ", date)
         cellEl.style.cursor = 'pointer';
         // plusE1.style.display = 'inline';
       });
@@ -97,6 +104,12 @@ export class MyTaskComponent {
   //   this.calendar = this.calendarComponent.getApi();
   // }
 
+  onDateClick(info: any) {
+    const date = info.dateStr;
+   // const events = this.calendarComponent.getApi().getEventsOnDay(date);
+    console.log(`There are events on ${date}`);
+  }
+
   createDialog(){
     this.dialog.open(TaskDialogComponent)
   }
@@ -107,7 +120,7 @@ export class MyTaskComponent {
     this.service.fetchEvents().subscribe(response => {
       // Assign the fetched events to the calendarOptions
       this.calendarOptions.events = response;
-      console.log("calender events: ", this.calendarOptions.events)
+     // console.log("calender events: ", this.calendarOptions.events)
       // const calendarApi = this.calendarComponent.getApi();
       // console.log("calendar api: ", calendarApi)
       // calendarApi.removeAllEvents();

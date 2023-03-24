@@ -1,51 +1,51 @@
 <div class="third-row">
-
     <div class="button-tabs">
-
- 
-    <!-- Calender  -->
-    <div class="cale">
-        <mat-form-field class="example-form-field" appearance="outline" style="width: 220px; height: 1vh;">
-            <mat-date-range-input [formGroup]="campaignTwo" [rangePicker]="campaignTwoPicker"
-                [comparisonStart]="campaignTwo.value.start" [comparisonEnd]="campaignTwo.value.end">
-                <input matStartDate placeholder="Start date" formControlName="start">
-                <input matEndDate placeholder="End date" formControlName="end">
-            </mat-date-range-input>
-            <mat-datepicker-toggle matIconSuffix [for]="campaignTwoPicker"></mat-datepicker-toggle>
-            <!-- <mat-hint>MM/DD/YYYY – MM/DD/YYYY</mat-hint> -->
-            <mat-date-range-picker #campaignTwoPicker></mat-date-range-picker>
-        </mat-form-field>
-    </div>
-    <!-- Filter -->
-    <div class="filter">
-        <mat-form-field appearance="outline" style="width: 150px; height: 1vh">
-            <div style="padding: 0;display: flex;">
-                <mat-select placeholder="Filter by" (selectionChange)="getselectedValue3($event.value)" name="filter"
-                    multiple [(ngModel)]="Filter3Selected">
-                    <mat-option *ngFor="let filter of Filter3" [value]="filter">
-                        {{filter}}
-                    </mat-option>
-                </mat-select>
+        <div class="but-tab">
+            <!-- Calender  -->
+            <div class="cale">
+                <mat-form-field class="example-form-field" appearance="outline" style="width: 220px; height: 1vh;">
+                    <mat-date-range-input [formGroup]="campaignTwo" [rangePicker]="campaignTwoPicker"
+                        [comparisonStart]="campaignTwo.value.start" [comparisonEnd]="campaignTwo.value.end">
+                        <input matStartDate placeholder="Start date" formControlName="start">
+                        <input matEndDate placeholder="End date" formControlName="end">
+                    </mat-date-range-input>
+                    <mat-datepicker-toggle matIconSuffix [for]="campaignTwoPicker"></mat-datepicker-toggle>
+                    <!-- <mat-hint>MM/DD/YYYY – MM/DD/YYYY</mat-hint> -->
+                    <mat-date-range-picker #campaignTwoPicker></mat-date-range-picker>
+                </mat-form-field>
             </div>
-        </mat-form-field>
-    </div>
-    <!-- Export Button -->
+            <!-- Filter -->
+            <div class="filter">
+                <mat-form-field appearance="outline" style="width: 150px; height: 1vh">
+                    <div style="padding: 0;display: flex;">
+                        <mat-select placeholder="Filter by" (selectionChange)="getselectedValue3($event.value)" name="filter"
+                            multiple [(ngModel)]="Filter3Selected">
+                            <mat-option *ngFor="let filter of Filter3" [value]="filter">
+                                {{filter}}
+                            </mat-option>
+                        </mat-select>
+                    </div>
+                </mat-form-field>
+            </div>
+        </div>
+        <!-- Export Button -->
 
-    <div class="matt-button">
-        <button mat-raised-button style="
-            background-color: #0085FF;
-            border-radius: 5px;
-            color: white;
-            width: 150px;
-            display:flow-root;
-        ">Export Details</button>
+        <div class="matt-button">
+            <button mat-raised-button style="
+                background-color: #0085FF;
+                border-radius: 5px;
+                color: white;
+                width: 150px;
+                display:flow-root;
+            ">Export Details</button>
+        </div>
     </div>
-</div>
+
     <!-- Top Paginator -->
-<div>
-    <mat-paginator #paginator [pageSize]="5" [pageIndex]='0' (page)="handlePageEvent($event)" aria-label="Select page">
-    </mat-paginator>
-</div>
+    <div>
+        <mat-paginator #paginator [pageSize]="5" [pageIndex]='0' (page)="handlePageEvent($event)" aria-label="Select page">
+        </mat-paginator>
+    </div>
     
 </div>
 

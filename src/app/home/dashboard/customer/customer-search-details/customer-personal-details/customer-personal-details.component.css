@@ -13,56 +13,66 @@
 .ico-name{
     display: flex;
 }
+.fittt{
+    display: flex;
+    justify-content: space-between; 
+    margin-left:25px
+}
 
+h2{
+    vertical-align: middle;margin: 1.2vh 0.4vh 0vh 0.4vh;font-size: 26px;
+}
 
-@media only screen and (min-width: 428px)and (max-width:768px) {
+@media only screen and (min-width: 350px)and (max-width:440px) {
+    .buttons{
+        display: flow-root; 
+        float:left; 
+        margin-left: 2vh;
+        margin-top: 2vh;
+    }
     .cust-person{
         display: flow-root; 
         margin-top:20px;
-        width:100%;
-        justify-content: space-between;  
+        width:100%; 
     }
-    .buttons{
-        display: flex; 
-        float:right;
-        justify-content: space-between;  
-        margin:10px 0px;
+    .fittt{
+        margin-top: 1vh;
+        float: left;
+        margin-left:5px
     }
-    
-    .ico-name{
-        display: flex;
-        margin:10px 0px;
-    }
-    
 }
 
+@media only screen and (min-width: 350px)and (max-width:368px) {
+    h2{
+        font-size: 20px;
+    }
+}
 
-@media only screen and (min-width: 218px)and (max-width:428px) {
+@media only screen and (min-width: 800px)and (max-width:960px) {
     .cust-person{
         display: flow-root; 
         margin-top:20px;
-        width:100%;
-        justify-content: space-between;  
+        width:100%; 
     }
     .buttons{
         display: flex; 
-        float:right;
+        float:left;
         justify-content: space-between;  
-        margin:10px 0px;
+        margin: 2vh 2vh 0vh 2vh;
     }
-    
-    .ico-name{
-        display: flex;
-        margin:10px 0px;
-    }
-    
 }
-@media only screen and (min-width: 768px)and (max-width:1024px) {
-    .cust-person{
-        display: flex; 
-        margin-top:20px;
-        width:100%;
-        justify-content: space-between;  
-    }
 
+@media only screen and (min-width: 440px)and (max-width:680px) {
+    .cust-person{
+        display: flow-root; 
+        margin-top:20px;
+        width:100%; 
+    }
+    .buttons{
+        display: flex; 
+        float:left;
+        justify-content: space-between;  
+        margin: 2vh 2vh 0vh 2vh;
+    }
 }
+

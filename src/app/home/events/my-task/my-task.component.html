@@ -75,7 +75,7 @@
 
     <!--                     Calender               -->
     <div class="calender">
-    <full-calendar class="calender-class" #calender [options]="calendarOptions">
+    <full-calendar class="calender-class" #calender (dateClick)="onDateClick($event)" [options]="calendarOptions">
         <ng-template #eventContent let-arg >
           <!-- <b>{{arg.timeText}}</b> -->
           <i >{{arg.event.title}}</i>

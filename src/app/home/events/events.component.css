@@ -4,6 +4,16 @@
     margin: 20px 20px 0px 30px;
 }
 
+.settt{
+    display: block;
+}
+
+.settt2{
+    display: none;
+}
+.dropp{
+    margin-top: -1vh 
+}
 .main2 {
     display: flex;
     margin: -10px 20px 0px 50px;
@@ -22,17 +32,63 @@
 }
 
 .home {
-    margin-top: 1vh;
+    margin-top: 0.3vh;
     margin-right: 2vh;
     font-size: 15px;
+    margin-left: 5px;
+    color: black;
+}
+.addcir{
+    color:gray;margin-top: 0.7vh;display: flex;
 }
 
 .add {
-    margin-top: 1vh;
+    margin-top: 0.4vh;
     font-size: 15px;
     margin-left: 5px;
+    color: black;
 }
 
 .selec {
     margin-right: 2vh;
+}
+
+@media only screen and (min-width: 350px)and (max-width:400px){
+    .main2{
+        display: flow-root;
+    }
+    .addcir {
+       margin-top: 0px;
+       margin-bottom: 1vh;
+    }
+    .selec{
+        margin-top: 2vh;
+        margin-bottom: 0px;
+    }
+    
+ }
+
+@media only screen and (min-width: 400px)and (max-width:420px){
+    .main2{
+         margin-left: 25px;
+    }
+    
+ }
+
+@media only screen and (min-width: 350px)and (max-width:600px){
+   .main1{
+        justify-content: flex-start
+   }
+    .dropp{
+        float: left;
+    }
+    .settt{
+        display: none;
+    }
+    
+    .settt2{
+        float: right;
+        margin-top: 1vh;
+        display: block;
+    }
 }
